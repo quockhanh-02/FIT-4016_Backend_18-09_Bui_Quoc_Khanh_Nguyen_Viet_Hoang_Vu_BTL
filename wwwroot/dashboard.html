@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8"> <!-- UTF-8 encoding -->
+<title>Fleet Dashboard</title> <!-- Page title -->
+
+<!-- Chart.js -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<style>
+
+/* ===== BODY ===== */
+body {
+    font-family: Arial;
+    background: #f4f6f9;
+    padding: 20px;
+}
+
+/* ===== CONTAINER ===== */
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+/* ===== GRID LAYOUT ===== */
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* 2 columns */
+    gap: 20px;
+}
+
+/* ===== CARD ===== */
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Limit chart height */
+canvas {
+    max-height: 250px;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>📊 Fleet Dashboard</h1>
+
+    <div class="grid">
+
+        <!-- Trips chart -->
+        <div class="card">
+            <h3>Trips Statistics</h3>
+            <canvas id="tripChart"></canvas>
+        </div>
+
+        <!-- Fuel chart -->
+        <div class="card">
+            <h3>Fuel Usage</h3>
+            <canvas id="fuelChart"></canvas>
+        </div>
+
+        <!-- Maintenance chart -->
+        <div class="card">
+            <h3>Maintenance Cost</h3>
+            <canvas id="maintenanceChart"></canvas>
+        </div>
+
+        <!-- Trips per vehicle -->
+        <div class="card">
+            <h3>Trips per Vehicle</h3>
+            <canvas id="vehicleChart"></canvas>
+        </div>
+
+        <!-- Accident chart -->
+        <div class="card">
+            <h3>Accident Statistics</h3>
+            <canvas id="accidentChart"></canvas>
+        </div>
+
+    </div>
+</div>
+
+<script>
+
+// ================= CONFIG =================
+const apiUrl = "http://localhost:5054/api"; // API base URL
+
+
+// ================= TRIPS =================
+async function loadTrips() {
+    try {
+        const res = await fetch(`${apiUrl}/Trips`); // GET trips
+        const data = await res.json();
+
+        // Initialize stats by day
+        const stats = { Sun:0, Mon:0, Tue:0, Wed:0, Thu:0, Fri:0, Sat:0 };
+
+        // Count trips by weekday
+        data.forEach(t => {
+            if (!t.startTime) return; // skip if no date
+
+            const day = new Date(t.startTime)
+                .toLocaleDateString('en-US', { weekday: 'short' });
+
+            stats[day]++; // increase count
+        });
+
+        // Draw chart
+        new Chart(document.getElementById("tripChart"), {
+            type: "line",
+            data: {
+                labels: Object.keys(stats),
+                datasets: [{
+                    label: "Trips",
+                    data: Object.values(stats),
+                    borderWidth: 2,
+                    tension: 0.3 // smooth line
+                }]
+            }
+        });
+
+    } catch (err) {
+        console.error("Trips error:", err);
+    }
+}
+
+
+// ================= FUEL =================
+async function loadFuel() {
+    try {
+        const res = await fetch(`${apiUrl}/FuelLogs`);
+        const data = await res.json();
+
+        // Sum total liters
+        const total = data.reduce((sum, f) => sum + (f.liters || 0), 0);
+
+        new Chart(document.getElementById("fuelChart"), {
+            type: "bar",
+            data: {
+                labels: ["Fuel"],
+                datasets: [{
+                    label: "Fuel (Liters)",
+                    data: [total]
+                }]
+            }
+        });
+
+    } catch (err) {
+        console.error("Fuel error:", err);
+    }
+}
+
+
+// ================= MAINTENANCE =================
+async function loadMaintenance() {
+    try {
+        const res = await fetch(`${apiUrl}/Maintenances`);
+        const data = await res.json();
+
+        // Sum total cost
+        const total = data.reduce((sum, m) => sum + (m.cost || 0), 0);
+
+        new Chart(document.getElementById("maintenanceChart"), {
+            type: "bar",
+            data: {
+                labels: ["Maintenance"],
+                datasets: [{
+                    label: "Maintenance Cost",
+                    data: [total]
+                }]
+            }
+        });
+
+    } catch (err) {
+        console.error("Maintenance error:", err);
+    }
+}
+
+
+// ================= TRIPS PER VEHICLE =================
+async function loadVehicleTrips() {
+    try {
+        const res = await fetch(`${apiUrl}/Trips`);
+        const data = await res.json();
+
+        const stats = {};
+
+        // Count trips per vehicle
+        data.forEach(t => {
+            const name = t.vehicle?.licensePlate || "Unknown";
+
+            if (!stats[name]) stats[name] = 0;
+            stats[name]++;
+        });
+
+        new Chart(document.getElementById("vehicleChart"), {
+            type: "pie",
+            data: {
+                labels: Object.keys(stats),
+                datasets: [{
+                    data: Object.values(stats)
+                }]
+            }
+        });
+
+    } catch (err) {
+        console.error("Vehicle error:", err);
+    }
+}
+
+
+// ================= ACCIDENT =================
+async function loadAccidents() {
+    try {
+        const res = await fetch(`${apiUrl}/Accidents`);
+        const data = await res.json();
+
+        if (!data || data.length === 0) return;
+
+        const stats = {};
+
+        // Count accidents by date
+        data.forEach(a => {
+            if (!a.accidentDate) return;
+
+            const date = new Date(a.accidentDate).toLocaleDateString();
+
+            if (!stats[date]) stats[date] = 0;
+            stats[date]++;
+        });
+
+        new Chart(document.getElementById("accidentChart"), {
+            type: "bar",
+            data: {
+                labels: Object.keys(stats),
+                datasets: [{
+                    label: "Accidents",
+                    data: Object.values(stats),
+                    borderWidth: 2
+                }]
+            }
+        });
+
+    } catch (err) {
+        console.error("Accident error:", err);
+    }
+}
+
+
+// ================= INIT LOAD =================
+document.addEventListener("DOMContentLoaded", () => {
+
+    // Load all charts when page opens
+    loadTrips();
+    loadFuel();
+    loadMaintenance();
+    loadVehicleTrips();
+    loadAccidents();
+
+});
+
+</script>
+
+</body>
+</html>

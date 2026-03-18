@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" /> <!-- Set UTF-8 encoding -->
+    <title>Trip Management</title> <!-- Page title -->
+
+    <!-- Import Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-light"> <!-- Light background -->
+
+<div class="container mt-4"> <!-- Main container -->
+
+<!-- Header -->
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <h2>🗺 Trip Management</h2> <!-- Title -->
+    <a href="/index.html" class="btn btn-secondary">⬅ Back to Home</a> <!-- Back button -->
+</div>
+
+<!-- Add / Update Trip Form -->
+<div class="card p-3 mb-4 shadow-sm">
+    <div class="row g-2">
+
+        <!-- Vehicle ID -->
+        <div class="col-md-3">
+            <input type="number" id="vehicleId" class="form-control" placeholder="Vehicle ID">
+        </div>
+
+        <!-- Driver ID -->
+        <div class="col-md-3">
+            <input type="number" id="driverId" class="form-control" placeholder="Driver ID">
+        </div>
+
+        <!-- Start location -->
+        <div class="col-md-3">
+            <input type="text" id="startLocation" class="form-control" placeholder="Start Location">
+        </div>
+
+        <!-- End location -->
+        <div class="col-md-3">
+            <input type="text" id="endLocation" class="form-control" placeholder="End Location">
+        </div>
+
+        <!-- Submit button -->
+        <div class="col-md-12 d-grid mt-2">
+            <button id="submitBtn" type="button" onclick="saveTrip()" class="btn btn-primary">
+                Add Trip
+            </button>
+        </div>
+
+    </div>
+</div>
+
+<!-- Trip Table -->
+<div class="card shadow-sm">
+    <div class="card-body">
+        <table class="table table-bordered table-hover">
+
+            <!-- Table header -->
+            <thead class="table-dark">
+                <tr>
+                    <th>ID</th>
+                    <th>Vehicle Type</th>
+                    <th>Driver</th>
+                    <th>Start Location</th>
+                    <th>End Location</th>
+                    <th style="width:150px;">Actions</th>
+                </tr>
+            </thead>
+
+            <!-- Table body -->
+            <tbody id="tripTable"></tbody>
+        </table>
+    </div>
+</div>
+
+</div>
+
+<script>
+
+// API endpoint
+const apiUrl = "/api/Trips";
+
+// ID đang chỉnh sửa (nếu có)
+let editingId = null;
+
+// ==============================
+// LOAD TRIPS
+// ==============================
+async function loadTrips() {
+
+    const res = await fetch(apiUrl); // Call API GET
+    const data = await res.json(); // Convert to JSON
+
+    const table = document.getElementById("tripTable");
+    table.innerHTML = ""; // Clear old data
+
+    // Loop through each trip
+    data.forEach(t => {
+
+        // Handle both camelCase and PascalCase (backend khác nhau)
+        const vehicleType = t.vehicle?.vehicleType || t.Vehicle?.VehicleType || "";
+        const driverName = t.driver?.fullName || t.Driver?.FullName || "";
+        const startLocation = t.startLocation || t.StartLocation || "";
+        const endLocation = t.endLocation || t.EndLocation || "";
+        const id = t.id || t.Id;
+
+        // Render row
+        table.innerHTML += `
+            <tr>
+                <td>${id}</td>
+                <td>${vehicleType}</td>
+                <td>${driverName}</td>
+                <td>${startLocation}</td>
+                <td>${endLocation}</td>
+                <td>
+
+                    <!-- Edit button -->
+                    <button class="btn btn-warning btn-sm me-1"
+                        onclick="editTrip(${id}, '${startLocation}', '${endLocation}', ${t.vehicleId || t.VehicleId}, ${t.driverId || t.DriverId})">
+                        Edit
+                    </button>
+
+                    <!-- Delete button -->
+                    <button class="btn btn-danger btn-sm"
+                        onclick="deleteTrip(${id})">
+                        Delete
+                    </button>
+
+                </td>
+            </tr>
+        `;
+    });
+}
+
+// ==============================
+// EDIT TRIP (load data vào form)
+// ==============================
+function editTrip(id, start, end, vehicleId, driverId) {
+
+    editingId = id; // Set ID đang edit
+
+    // Fill dữ liệu vào form
+    document.getElementById("startLocation").value = start;
+    document.getElementById("endLocation").value = end;
+    document.getElementById("vehicleId").value = vehicleId;
+    document.getElementById("driverId").value = driverId;
+
+    // Đổi text nút
+    document.getElementById("submitBtn").innerText = "Update Trip";
+}
+
+// ==============================
+// ADD + UPDATE TRIP
+// ==============================
+async function saveTrip() {
+
+    // Lấy dữ liệu từ form
+    const vehicleId = parseInt(document.getElementById("vehicleId").value);
+    const driverId = parseInt(document.getElementById("driverId").value);
+    const startLocation = document.getElementById("startLocation").value;
+    const endLocation = document.getElementById("endLocation").value;
+
+    // Validate
+    if (!startLocation || !endLocation) {
+        alert("Please enter locations!");
+        return;
+    }
+
+    let res;
+
+    // ======================
+    // UPDATE
+    // ======================
+    if (editingId) {
+
+        res = await fetch(`${apiUrl}/${editingId}`, {
+            method: "PUT",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({
+                id: editingId,
+                vehicleId,
+                driverId,
+                startLocation,
+                endLocation
+            })
+        });
+
+        editingId = null; // reset
+        document.getElementById("submitBtn").innerText = "Add Trip";
+    }
+
+    // ======================
+    // CREATE
+    // ======================
+    else {
+
+        if (!vehicleId || !driverId) {
+            alert("Please enter Vehicle ID and Driver ID!");
+            return;
+        }
+
+        res = await fetch(apiUrl, {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({
+                vehicleId,
+                driverId,
+                startLocation,
+                endLocation
+            })
+        });
+    }
+
+    // Nếu lỗi
+    if (!res.ok) {
+        const error = await res.text();
+        alert(error);
+        return;
+    }
+
+    // Reset form
+    document.querySelectorAll("input").forEach(i => i.value = "");
+
+    loadTrips(); // Reload data
+}
+
+// ==============================
+// DELETE TRIP
+// ==============================
+async function deleteTrip(id) {
+
+    // Confirm trước khi xóa
+    if (!confirm("Are you sure you want to delete?")) return;
+
+    await fetch(`${apiUrl}/${id}`, {
+        method: "DELETE"
+    });
+
+    loadTrips(); // Reload
+}
+
+// Khi load trang thì gọi hàm load
+document.addEventListener("DOMContentLoaded", loadTrips);
+
+</script>
+
+</body>
+</html>

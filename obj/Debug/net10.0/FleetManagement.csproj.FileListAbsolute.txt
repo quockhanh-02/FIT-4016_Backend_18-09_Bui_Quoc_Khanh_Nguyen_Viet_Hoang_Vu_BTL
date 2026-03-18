@@ -1,0 +1,520 @@
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\appsettings.Development.json
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\appsettings.json
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\FleetManagement.staticwebassets.runtime.json
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\FleetManagement.staticwebassets.endpoints.json
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\FleetManagement.exe
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\FleetManagement.deps.json
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\FleetManagement.runtimeconfig.json
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\FleetManagement.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\FleetManagement.pdb
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\Azure.Core.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\Azure.Identity.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\Humanizer.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\Microsoft.Bcl.Cryptography.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\Microsoft.Build.Framework.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\Microsoft.CodeAnalysis.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\Microsoft.CodeAnalysis.ExternalAccess.RazorCompiler.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\Microsoft.Data.SqlClient.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\Microsoft.Identity.Client.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\Microsoft.OpenApi.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\Microsoft.SqlServer.Server.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\Microsoft.VisualStudio.SolutionPersistence.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\Mono.TextTemplating.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\Newtonsoft.Json.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\System.ClientModel.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\System.CodeDom.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\System.Composition.AttributedModel.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\System.Composition.Convention.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\System.Composition.Hosting.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\System.Composition.Runtime.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\System.Composition.TypedParts.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\System.Configuration.ConfigurationManager.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\System.Memory.Data.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\cs\Microsoft.Data.SqlClient.resources.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\de\Microsoft.Data.SqlClient.resources.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\es\Microsoft.Data.SqlClient.resources.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\fr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\it\Microsoft.Data.SqlClient.resources.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\ja\Microsoft.Data.SqlClient.resources.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\ko\Microsoft.Data.SqlClient.resources.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\pl\Microsoft.Data.SqlClient.resources.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\ru\Microsoft.Data.SqlClient.resources.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\tr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\runtimes\unix\lib\net9.0\Microsoft.Data.SqlClient.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\runtimes\win\lib\net9.0\Microsoft.Data.SqlClient.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\dell\FleetProject\FleetManagement\bin\Debug\net10.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\dell\FleetProject\FleetManagement\obj\Debug\net10.0\FleetManagement.csproj.AssemblyReference.cache
+C:\Users\dell\FleetProject\FleetManagement\obj\Debug\net10.0\rpswa.dswa.cache.json
+C:\Users\dell\FleetProject\FleetManagement\obj\Debug\net10.0\FleetManagement.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dell\FleetProject\FleetManagement\obj\Debug\net10.0\FleetManagement.AssemblyInfoInputs.cache
+C:\Users\dell\FleetProject\FleetManagement\obj\Debug\net10.0\FleetManagement.AssemblyInfo.cs
+C:\Users\dell\FleetProject\FleetManagement\obj\Debug\net10.0\FleetManagement.csproj.CoreCompileInputs.cache
+C:\Users\dell\FleetProject\FleetManagement\obj\Debug\net10.0\FleetManagement.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\dell\FleetProject\FleetManagement\obj\Debug\net10.0\FleetManagement.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\dell\FleetProject\FleetManagement\obj\Debug\net10.0\rjimswa.dswa.cache.json
+C:\Users\dell\FleetProject\FleetManagement\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
+C:\Users\dell\FleetProject\FleetManagement\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
+C:\Users\dell\FleetProject\FleetManagement\obj\Debug\net10.0\scopedcss\bundle\FleetManagement.styles.css
+C:\Users\dell\FleetProject\FleetManagement\obj\Debug\net10.0\compressed\zn37yh5avc-{0}-g6i2er9a2k-g6i2er9a2k.gz
+C:\Users\dell\FleetProject\FleetManagement\obj\Debug\net10.0\compressed\aty4j0t9q2-{0}-pmjc5ca7fd-pmjc5ca7fd.gz
+C:\Users\dell\FleetProject\FleetManagement\obj\Debug\net10.0\compressed\2adl1bwpe7-{0}-zd2drk515m-zd2drk515m.gz
+C:\Users\dell\FleetProject\FleetManagement\obj\Debug\net10.0\compressed\6uv06whxp3-{0}-6vy5ll6q4f-6vy5ll6q4f.gz
+C:\Users\dell\FleetProject\FleetManagement\obj\Debug\net10.0\staticwebassets.build.json
+C:\Users\dell\FleetProject\FleetManagement\obj\Debug\net10.0\staticwebassets.build.json.cache
+C:\Users\dell\FleetProject\FleetManagement\obj\Debug\net10.0\staticwebassets.development.json
+C:\Users\dell\FleetProject\FleetManagement\obj\Debug\net10.0\staticwebassets.build.endpoints.json
+C:\Users\dell\FleetProject\FleetManagement\obj\Debug\net10.0\swae.build.ex.cache
+C:\Users\dell\FleetProject\FleetManagement\obj\Debug\net10.0\FleetMan.35CB6159.Up2Date
+C:\Users\dell\FleetProject\FleetManagement\obj\Debug\net10.0\FleetManagement.dll
+C:\Users\dell\FleetProject\FleetManagement\obj\Debug\net10.0\refint\FleetManagement.dll
+C:\Users\dell\FleetProject\FleetManagement\obj\Debug\net10.0\FleetManagement.pdb
+C:\Users\dell\FleetProject\FleetManagement\obj\Debug\net10.0\FleetManagement.genruntimeconfig.cache
+C:\Users\dell\FleetProject\FleetManagement\obj\Debug\net10.0\ref\FleetManagement.dll
+C:\Users\dell\FleetProject\FleetManagement\obj\Debug\net10.0\compressed\qcvw9ojoev-{0}-xr0w5l0mx0-xr0w5l0mx0.gz
+C:\Users\dell\FleetProject\FleetManagement\obj\Debug\net10.0\compressed\nalfap90w0-{0}-wxxmfvyumj-wxxmfvyumj.gz
+C:\Users\dell\FleetProject\FleetManagement\obj\Debug\net10.0\compressed\mkw7v0y8az-{0}-kte34dumh6-kte34dumh6.gz
+C:\Users\dell\FleetProject\FleetManagement\obj\Debug\net10.0\compressed\5hd4oykezw-{0}-oau8in9cnf-oau8in9cnf.gz
+C:\Users\dell\FleetProject\FleetManagement\obj\Debug\net10.0\compressed\ap52fmu52g-{0}-dufry6v9eq-dufry6v9eq.gz
+C:\Users\dell\FleetProject\FleetManagement\obj\Debug\net10.0\compressed\hbhtpjvnqa-{0}-wgcf5713tb-wgcf5713tb.gz
+C:\Users\dell\FleetProject\FleetManagement\obj\Debug\net10.0\compressed\hyiahz8ib7-{0}-zk6rueze44-zk6rueze44.gz
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\appsettings.Development.json
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\appsettings.json
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\FleetManagement.staticwebassets.runtime.json
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\FleetManagement.staticwebassets.endpoints.json
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\FleetManagement.exe
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\FleetManagement.deps.json
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\FleetManagement.runtimeconfig.json
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\FleetManagement.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\FleetManagement.pdb
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\Azure.Core.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\Azure.Identity.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\Humanizer.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\Microsoft.AspNetCore.OpenApi.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\Microsoft.Bcl.Cryptography.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\Microsoft.Build.Framework.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\Microsoft.CodeAnalysis.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\Microsoft.CodeAnalysis.ExternalAccess.RazorCompiler.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\Microsoft.Data.SqlClient.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\Microsoft.Extensions.DependencyModel.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\Microsoft.Identity.Client.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\Microsoft.IdentityModel.Abstractions.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\Microsoft.IdentityModel.Logging.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\Microsoft.IdentityModel.Protocols.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\Microsoft.IdentityModel.Tokens.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\Microsoft.OpenApi.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\Microsoft.SqlServer.Server.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\Microsoft.VisualStudio.SolutionPersistence.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\Mono.TextTemplating.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\Newtonsoft.Json.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\System.ClientModel.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\System.CodeDom.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\System.Composition.AttributedModel.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\System.Composition.Convention.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\System.Composition.Hosting.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\System.Composition.Runtime.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\System.Composition.TypedParts.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\System.Configuration.ConfigurationManager.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\System.IdentityModel.Tokens.Jwt.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\System.Memory.Data.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\System.Security.Cryptography.ProtectedData.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\cs\Microsoft.Data.SqlClient.resources.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\de\Microsoft.Data.SqlClient.resources.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\es\Microsoft.Data.SqlClient.resources.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\fr\Microsoft.Data.SqlClient.resources.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\it\Microsoft.Data.SqlClient.resources.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\ja\Microsoft.Data.SqlClient.resources.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\ko\Microsoft.Data.SqlClient.resources.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\pl\Microsoft.Data.SqlClient.resources.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\ru\Microsoft.Data.SqlClient.resources.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\tr\Microsoft.Data.SqlClient.resources.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\runtimes\unix\lib\net9.0\Microsoft.Data.SqlClient.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\runtimes\win\lib\net9.0\Microsoft.Data.SqlClient.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\BackEnd\FleetManagement\bin\Debug\net10.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\BackEnd\FleetManagement\obj\Debug\net10.0\FleetManagement.csproj.AssemblyReference.cache
+C:\BackEnd\FleetManagement\obj\Debug\net10.0\rpswa.dswa.cache.json
+C:\BackEnd\FleetManagement\obj\Debug\net10.0\FleetManagement.GeneratedMSBuildEditorConfig.editorconfig
+C:\BackEnd\FleetManagement\obj\Debug\net10.0\FleetManagement.AssemblyInfoInputs.cache
+C:\BackEnd\FleetManagement\obj\Debug\net10.0\FleetManagement.AssemblyInfo.cs
+C:\BackEnd\FleetManagement\obj\Debug\net10.0\FleetManagement.csproj.CoreCompileInputs.cache
+C:\BackEnd\FleetManagement\obj\Debug\net10.0\FleetManagement.MvcApplicationPartsAssemblyInfo.cs
+C:\BackEnd\FleetManagement\obj\Debug\net10.0\FleetManagement.MvcApplicationPartsAssemblyInfo.cache
+C:\BackEnd\FleetManagement\obj\Debug\net10.0\rjimswa.dswa.cache.json
+C:\BackEnd\FleetManagement\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
+C:\BackEnd\FleetManagement\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
+C:\BackEnd\FleetManagement\obj\Debug\net10.0\scopedcss\bundle\FleetManagement.styles.css
+C:\BackEnd\FleetManagement\obj\Debug\net10.0\compressed\nalfap90w0-{0}-wxxmfvyumj-wxxmfvyumj.gz
+C:\BackEnd\FleetManagement\obj\Debug\net10.0\compressed\ap52fmu52g-{0}-dufry6v9eq-dufry6v9eq.gz
+C:\BackEnd\FleetManagement\obj\Debug\net10.0\compressed\hbhtpjvnqa-{0}-wgcf5713tb-wgcf5713tb.gz
+C:\BackEnd\FleetManagement\obj\Debug\net10.0\compressed\mkw7v0y8az-{0}-kte34dumh6-kte34dumh6.gz
+C:\BackEnd\FleetManagement\obj\Debug\net10.0\compressed\zn37yh5avc-{0}-g6i2er9a2k-g6i2er9a2k.gz
+C:\BackEnd\FleetManagement\obj\Debug\net10.0\compressed\hyiahz8ib7-{0}-zk6rueze44-zk6rueze44.gz
+C:\BackEnd\FleetManagement\obj\Debug\net10.0\compressed\5hd4oykezw-{0}-oau8in9cnf-oau8in9cnf.gz
+C:\BackEnd\FleetManagement\obj\Debug\net10.0\compressed\aty4j0t9q2-{0}-pmjc5ca7fd-pmjc5ca7fd.gz
+C:\BackEnd\FleetManagement\obj\Debug\net10.0\compressed\qcvw9ojoev-{0}-xr0w5l0mx0-xr0w5l0mx0.gz
+C:\BackEnd\FleetManagement\obj\Debug\net10.0\compressed\2adl1bwpe7-{0}-zd2drk515m-zd2drk515m.gz
+C:\BackEnd\FleetManagement\obj\Debug\net10.0\compressed\6uv06whxp3-{0}-6vy5ll6q4f-6vy5ll6q4f.gz
+C:\BackEnd\FleetManagement\obj\Debug\net10.0\staticwebassets.build.json
+C:\BackEnd\FleetManagement\obj\Debug\net10.0\staticwebassets.build.json.cache
+C:\BackEnd\FleetManagement\obj\Debug\net10.0\staticwebassets.development.json
+C:\BackEnd\FleetManagement\obj\Debug\net10.0\staticwebassets.build.endpoints.json
+C:\BackEnd\FleetManagement\obj\Debug\net10.0\swae.build.ex.cache
+C:\BackEnd\FleetManagement\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
+C:\BackEnd\FleetManagement\obj\Debug\net10.0\FleetMan.35CB6159.Up2Date
+C:\BackEnd\FleetManagement\obj\Debug\net10.0\FleetManagement.dll
+C:\BackEnd\FleetManagement\obj\Debug\net10.0\refint\FleetManagement.dll
+C:\BackEnd\FleetManagement\obj\Debug\net10.0\FleetManagement.pdb
+C:\BackEnd\FleetManagement\obj\Debug\net10.0\FleetManagement.genruntimeconfig.cache
+C:\BackEnd\FleetManagement\obj\Debug\net10.0\ref\FleetManagement.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\appsettings.Development.json
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\appsettings.json
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\FleetManagement.staticwebassets.runtime.json
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\FleetManagement.staticwebassets.endpoints.json
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\FleetManagement.exe
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\FleetManagement.deps.json
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\FleetManagement.runtimeconfig.json
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\FleetManagement.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\FleetManagement.pdb
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\Azure.Core.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\Azure.Identity.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\Humanizer.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\Microsoft.Bcl.Cryptography.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\Microsoft.Build.Framework.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\Microsoft.CodeAnalysis.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\Microsoft.CodeAnalysis.ExternalAccess.RazorCompiler.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\Microsoft.Data.SqlClient.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\Microsoft.Identity.Client.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\Microsoft.OpenApi.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\Microsoft.SqlServer.Server.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\Microsoft.VisualStudio.SolutionPersistence.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\Mono.TextTemplating.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\Newtonsoft.Json.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\System.ClientModel.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\System.CodeDom.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\System.Composition.AttributedModel.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\System.Composition.Convention.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\System.Composition.Hosting.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\System.Composition.Runtime.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\System.Composition.TypedParts.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\System.Configuration.ConfigurationManager.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\System.Memory.Data.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\cs\Microsoft.Data.SqlClient.resources.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\de\Microsoft.Data.SqlClient.resources.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\es\Microsoft.Data.SqlClient.resources.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\fr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\it\Microsoft.Data.SqlClient.resources.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\ja\Microsoft.Data.SqlClient.resources.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\ko\Microsoft.Data.SqlClient.resources.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\pl\Microsoft.Data.SqlClient.resources.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\ru\Microsoft.Data.SqlClient.resources.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\tr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\runtimes\unix\lib\net9.0\Microsoft.Data.SqlClient.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\runtimes\win\lib\net9.0\Microsoft.Data.SqlClient.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\bin\Debug\net10.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\obj\Debug\net10.0\FleetManagement.csproj.AssemblyReference.cache
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\obj\Debug\net10.0\rpswa.dswa.cache.json
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\obj\Debug\net10.0\FleetManagement.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\obj\Debug\net10.0\FleetManagement.AssemblyInfoInputs.cache
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\obj\Debug\net10.0\FleetManagement.AssemblyInfo.cs
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\obj\Debug\net10.0\FleetManagement.csproj.CoreCompileInputs.cache
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\obj\Debug\net10.0\FleetManagement.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\obj\Debug\net10.0\FleetManagement.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\obj\Debug\net10.0\rjimswa.dswa.cache.json
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\obj\Debug\net10.0\scopedcss\bundle\FleetManagement.styles.css
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\obj\Debug\net10.0\staticwebassets.build.json
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\obj\Debug\net10.0\staticwebassets.build.json.cache
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\obj\Debug\net10.0\staticwebassets.development.json
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\obj\Debug\net10.0\staticwebassets.build.endpoints.json
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\obj\Debug\net10.0\swae.build.ex.cache
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\obj\Debug\net10.0\FleetMan.35CB6159.Up2Date
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\obj\Debug\net10.0\FleetManagement.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\obj\Debug\net10.0\refint\FleetManagement.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\obj\Debug\net10.0\FleetManagement.pdb
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\obj\Debug\net10.0\FleetManagement.genruntimeconfig.cache
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\obj\Debug\net10.0\ref\FleetManagement.dll
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\obj\Debug\net10.0\compressed\nalfap90w0-{0}-uj7vblajza-uj7vblajza.gz
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\obj\Debug\net10.0\compressed\ap52fmu52g-{0}-kyqrono3iz-kyqrono3iz.gz
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\obj\Debug\net10.0\compressed\hbhtpjvnqa-{0}-zt3ie740a7-zt3ie740a7.gz
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\obj\Debug\net10.0\compressed\mkw7v0y8az-{0}-x5yfti9d1n-x5yfti9d1n.gz
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\obj\Debug\net10.0\compressed\zn37yh5avc-{0}-wkzvdc77nq-wkzvdc77nq.gz
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\obj\Debug\net10.0\compressed\hyiahz8ib7-{0}-i9tazax600-i9tazax600.gz
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\obj\Debug\net10.0\compressed\5hd4oykezw-{0}-kchigahn26-kchigahn26.gz
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\obj\Debug\net10.0\compressed\aty4j0t9q2-{0}-fgngsg9tu7-fgngsg9tu7.gz
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\obj\Debug\net10.0\compressed\qcvw9ojoev-{0}-2wut2jnyyk-2wut2jnyyk.gz
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\obj\Debug\net10.0\compressed\2adl1bwpe7-{0}-hbopjadpvg-hbopjadpvg.gz
+C:\Users\dell\OneDrive - Dai Nam University\Tài liệu\laptrinh-Back-end\FleetManagement\obj\Debug\net10.0\compressed\6uv06whxp3-{0}-5uapijur4s-5uapijur4s.gz

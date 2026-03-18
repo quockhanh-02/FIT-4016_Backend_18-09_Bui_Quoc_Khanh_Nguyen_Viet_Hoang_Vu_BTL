@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8"> <!-- Bảng mã UTF-8 -->
+<title>Fleet Management System</title> <!-- Tiêu đề -->
+
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Icon FontAwesome -->
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<!-- Chart.js để vẽ biểu đồ -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<style>
+
+/* Nền + font */
+body{
+background:#f1f5f9;
+font-family:'Segoe UI',sans-serif;
+}
+
+/* ===== TOPBAR ===== */
+.topbar{
+height:65px;
+background:#1e293b;
+color:white;
+display:flex;
+align-items:center;
+justify-content:space-between;
+padding:0 25px;
+font-size:22px;
+font-weight:600;
+}
+
+/* ===== SIDEBAR ===== */
+.sidebar{
+width:240px;
+height:calc(100vh - 65px); /* full chiều cao trừ topbar */
+background:#0f172a;
+position:fixed;
+top:65px;
+left:0;
+padding-top:20px;
+}
+
+.sidebar a{
+display:block;
+color:#cbd5f1;
+padding:14px 25px;
+text-decoration:none;
+font-size:16px;
+}
+
+.sidebar a:hover{
+background:#1e293b;
+color:white;
+}
+
+/* ===== CONTENT ===== */
+.content{
+margin-left:240px; /* tránh sidebar */
+margin-top:65px; /* tránh topbar */
+padding:40px;
+}
+
+/* ===== CARD ===== */
+.card-box{
+background:white;
+padding:25px;
+border-radius:14px;
+box-shadow:0 5px 15px rgba(0,0,0,0.08);
+margin-bottom:25px;
+}
+
+/* ===== STAT CARDS ===== */
+.stat-card{
+color:white;
+padding:20px;
+border-radius:12px;
+}
+
+.stat-icon{
+font-size:28px;
+opacity:0.8;
+}
+
+/* Màu */
+.bg-blue{background:#2563eb;}
+.bg-green{background:#16a34a;}
+.bg-orange{background:#f59e0b;}
+.bg-red{background:#ef4444;}
+
+</style>
+
+<script>
+
+/* ===== CHECK LOGIN ===== */
+// Nếu chưa login thì quay về login
+if(localStorage.getItem("logged") !== "true"){
+window.location.href="login.html";
+}
+
+/* ===== LOGOUT ===== */
+function logout(){
+localStorage.removeItem("logged"); // xóa trạng thái login
+window.location.href="login.html"; // về trang login
+}
+
+</script>
+
+</head>
+
+<body>
+
+<!-- ===== TOPBAR ===== -->
+<div class="topbar">
+<div>🚚 Fleet Management System</div>
+<button onclick="logout()" class="btn btn-danger">Logout</button>
+</div>
+
+<!-- ===== SIDEBAR ===== -->
+<div class="sidebar">
+
+<a href="index.html"><i class="fa fa-home"></i> Home</a>
+<a href="vehicles.html"><i class="fa fa-truck"></i> Vehicles</a>
+<a href="drivers.html"><i class="fa fa-user"></i> Drivers</a>
+<a href="trips.html"><i class="fa fa-route"></i> Trips</a>
+<a href="fuel.html"><i class="fa fa-gas-pump"></i> Fuel</a>
+<a href="maintenance.html"><i class="fa fa-wrench"></i> Maintenance</a>
+<a href="accidents.html"><i class="fa fa-car-crash"></i> Accidents</a>
+
+</div>
+
+<!-- ===== MAIN CONTENT ===== -->
+<div class="content">
+
+<h2 class="mb-4">Dashboard</h2>
+
+<!-- ===== STATISTICS ===== -->
+<div class="row mb-4">
+
+<!-- Vehicle count -->
+<div class="col-md-2">
+<div class="stat-card bg-blue">
+<div class="d-flex justify-content-between">
+<div>
+<h4 id="vehicleCount">0</h4> <!-- Sẽ cập nhật bằng JS -->
+Vehicles
+</div>
+<i class="fa fa-truck stat-icon"></i>
+</div>
+</div>
+</div>
+
+<!-- Driver count -->
+<div class="col-md-2">
+<div class="stat-card bg-green">
+<div class="d-flex justify-content-between">
+<div>
+<h4 id="driverCount">0</h4>
+Drivers
+</div>
+<i class="fa fa-user stat-icon"></i>
+</div>
+</div>
+</div>
+
+<!-- Trip count -->
+<div class="col-md-2">
+<div class="stat-card bg-orange">
+<div class="d-flex justify-content-between">
+<div>
+<h4 id="tripCount">0</h4>
+Trips
+</div>
+<i class="fa fa-route stat-icon"></i>
+</div>
+</div>
+</div>
+
+<!-- Fuel count -->
+<div class="col-md-2">
+<div class="stat-card bg-red">
+<div class="d-flex justify-content-between">
+<div>
+<h4 id="fuelCount">0</h4>
+FuelLogs
+</div>
+<i class="fa fa-gas-pump stat-icon"></i>
+</div>
+</div>
+</div>
+
+<!-- Accident count -->
+<div class="col-md-2">
+<div class="stat-card bg-red">
+<div class="d-flex justify-content-between">
+<div>
+<h4 id="accidentCount">0</h4>
+Accidents
+</div>
+<i class="fa fa-car-crash stat-icon"></i>
+</div>
+</div>
+</div>
+
+</div>
+
+<!-- ===== CHARTS ===== -->
+<div class="row">
+
+<div class="col-md-6">
+<div class="card-box">
+<h5>Trips Statistics</h5>
+<canvas id="tripChart"></canvas> <!-- Chart line -->
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="card-box">
+<h5>Fuel Usage</h5>
+<canvas id="fuelChart"></canvas> <!-- Chart bar -->
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="card-box">
+<h5>Maintenance Cost</h5>
+<canvas id="maintenanceChart"></canvas>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="card-box">
+<h5>Trips per Vehicle</h5>
+<canvas id="vehicleTripChart"></canvas>
+</div>
+</div>
+
+</div>
+
+</div>
+
+<script>
+
+/* ===== HELPER FETCH ===== */
+// Hàm gọi API chung
+async function getData(url){
+try{
+const res = await fetch(url);
+if(!res.ok) return [];
+return await res.json();
+}catch{
+return [];
+}
+}
+
+/* ===== LOAD DASHBOARD ===== */
+async function loadDashboard(){
+
+// Gọi tất cả API
+const vehicles = await getData("/api/vehicles");
+const drivers = await getData("/api/drivers");
+const trips = await getData("/api/trips");
+const fuels = await getData("/api/fuellogs");
+const maintenances = await getData("/api/maintenances");
+const accidents = await getData("/api/accidents");
+
+/* ===== COUNT ===== */
+document.getElementById("vehicleCount").innerText = vehicles.length;
+document.getElementById("driverCount").innerText = drivers.length;
+document.getElementById("tripCount").innerText = trips.length;
+document.getElementById("fuelCount").innerText = fuels.length;
+document.getElementById("accidentCount").innerText = accidents.length;
+
+/* ===== TRIPS BY DAY ===== */
+let days=["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
+let tripData=[0,0,0,0,0,0,0];
+
+trips.forEach(t=>{
+if(t.tripDate){
+let d=new Date(t.tripDate).getDay(); // lấy thứ
+tripData[d]++; // tăng số chuyến
+}
+});
+
+/* ===== FUEL ===== */
+let fuelData=fuels.map(f=>f.liters||0);
+
+/* ===== MAINTENANCE ===== */
+let maintenanceCost=maintenances.map(m=>m.cost||0);
+let maintenanceLabels=maintenances.map((m,i)=>"Maintenance "+(i+1));
+
+/* ===== TRIPS PER VEHICLE ===== */
+let vehicleTrips={};
+
+trips.forEach(t=>{
+let plate=t.vehicle?.licensePlate || "Unknown";
+
+if(!vehicleTrips[plate])
+vehicleTrips[plate]=0;
+
+vehicleTrips[plate]++;
+});
+
+let vehicleLabels=Object.keys(vehicleTrips);
+let vehicleData=Object.values(vehicleTrips);
+
+/* ===== DRAW CHARTS ===== */
+
+// Line chart - trips theo ngày
+new Chart(document.getElementById("tripChart"),{
+type:"line",
+data:{
+labels:days,
+datasets:[{
+label:"Trips",
+data:tripData,
+borderColor:"#2563eb",
+backgroundColor:"rgba(37,99,235,0.2)",
+fill:true
+}]
+}
+});
+
+// Bar chart - fuel
+new Chart(document.getElementById("fuelChart"),{
+type:"bar",
+data:{
+labels:fuels.map((f,i)=>"Log "+(i+1)),
+datasets:[{
+label:"Fuel (Liters)",
+data:fuelData,
+backgroundColor:"#16a34a"
+}]
+}
+});
+
+// Bar chart - maintenance cost
+new Chart(document.getElementById("maintenanceChart"),{
+type:"bar",
+data:{
+labels:maintenanceLabels,
+datasets:[{
+label:"Maintenance Cost",
+data:maintenanceCost,
+backgroundColor:"#ef4444"
+}]
+}
+});
+
+// Pie chart - trips per vehicle
+new Chart(document.getElementById("vehicleTripChart"),{
+type:"pie",
+data:{
+labels:vehicleLabels,
+datasets:[{
+data:vehicleData,
+backgroundColor:[
+"#2563eb",
+"#16a34a",
+"#f59e0b",
+"#ef4444",
+"#9333ea"
+]
+}]
+}
+});
+
+}
+
+// Load khi mở trang
+document.addEventListener("DOMContentLoaded",loadDashboard);
+
+</script>
+
+</body>
+</html>

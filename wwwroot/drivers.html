@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8"> <!-- UTF-8 encoding -->
+<title>Driver Management</title> <!-- Page title -->
+
+<style>
+
+/* ===== BODY ===== */
+body {
+    font-family: Arial;
+    background: #f4f6f9;
+    padding: 20px;
+}
+
+/* ===== HEADER ===== */
+.header {
+    display: flex;
+    justify-content: space-between; /* Space between title & button */
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* ===== CARD ===== */
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* ===== FORM ===== */
+.form-row {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+input {
+    padding: 10px;
+    flex: 1;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+/* ===== BUTTON ===== */
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background: linear-gradient(to right, #1e6bd6, #1c5ec2);
+    color: white;
+    width: 100%;
+    font-weight: bold;
+}
+
+.btn-edit {
+    background: #ffc107;
+    margin-right: 5px;
+}
+
+.btn-danger {
+    background: #dc3545;
+    color: white;
+}
+
+.btn-back {
+    background: #6c757d;
+    color: white;
+}
+
+/* ===== TABLE ===== */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+th {
+    background: #212529;
+    color: white;
+    padding: 12px;
+    text-align: left;
+}
+
+td {
+    padding: 12px;
+    border-bottom: 1px solid #eee;
+}
+
+tr:hover {
+    background: #f9f9f9;
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- ===== HEADER ===== -->
+<div class="header">
+    <h1>👤 Driver Management</h1>
+
+    <!-- Back button -->
+    <button class="btn-back" onclick="location.href='index.html'">
+        ⬅ Back to Home
+    </button>
+</div>
+
+<!-- ===== FORM ===== -->
+<div class="card">
+
+    <div class="form-row">
+
+        <!-- Full name input -->
+        <input id="name" placeholder="Full Name">
+
+        <!-- License input -->
+        <input id="license" placeholder="License Number">
+
+    </div>
+
+    <!-- Main button (Add / Update) -->
+    <button class="btn-primary" id="mainBtn">Add Driver</button>
+
+</div>
+
+<!-- ===== TABLE ===== -->
+<div class="card">
+    <table>
+
+        <!-- Table header -->
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Full Name</th>
+                <th>License</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+
+        <!-- Data render -->
+        <tbody id="driverTable"></tbody>
+
+    </table>
+</div>
+
+<script>
+
+// ===== API URL =====
+const apiUrl = "http://localhost:5054/api"; // Change if needed
+
+// Store ID when editing
+let editingId = null;
+
+// ===== LOAD DRIVERS =====
+async function loadDrivers() {
+
+    // Call API
+    const res = await fetch(`${apiUrl}/Drivers`);
+    const data = await res.json();
+
+    // Get table
+    const table = document.getElementById("driverTable");
+
+    // Clear old data
+    table.innerHTML = "";
+
+    // Loop data
+    data.forEach(d => {
+
+        table.innerHTML += `
+        <tr>
+            <td>${d.id}</td> <!-- ID -->
+            <td>${d.fullName}</td> <!-- Name -->
+            <td>${d.licenseNumber}</td> <!-- License -->
+            <td>
+
+                <!-- Edit button -->
+                <button class="btn-edit"
+                onclick="editDriver(${d.id}, \`${d.fullName}\`, \`${d.licenseNumber}\`)">
+                Edit
+                </button>
+
+                <!-- Delete button -->
+                <button class="btn-danger"
+                onclick="deleteDriver(${d.id})">
+                Delete
+                </button>
+
+            </td>
+        </tr>`;
+    });
+}
+
+// ===== ADD / UPDATE =====
+document.getElementById("mainBtn").onclick = async function () {
+
+    // Get input values
+    const name = document.getElementById("name").value;
+    const license = document.getElementById("license").value;
+
+    // Validate
+    if (!name || !license) {
+        alert("Please fill all fields!");
+        return;
+    }
+
+    // If editing → UPDATE
+    if (editingId) {
+
+        await fetch(`${apiUrl}/Drivers/${editingId}`, {
+            method: "PUT",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({
+                id: editingId,
+                fullName: name,
+                licenseNumber: license
+            })
+        });
+
+    } else {
+
+        // ADD new driver
+        await fetch(`${apiUrl}/Drivers`, {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({
+                fullName: name,
+                licenseNumber: license
+            })
+        });
+    }
+
+    resetForm(); // Clear form
+    loadDrivers(); // Reload data
+};
+
+// ===== EDIT =====
+function editDriver(id, name, license) {
+
+    editingId = id; // Set edit mode
+
+    // Fill form
+    document.getElementById("name").value = name;
+    document.getElementById("license").value = license;
+
+    // Change button text
+    document.getElementById("mainBtn").innerText = "Update Driver";
+}
+
+// ===== DELETE =====
+async function deleteDriver(id) {
+
+    // Confirm
+    if (!confirm("Delete driver?")) return;
+
+    await fetch(`${apiUrl}/Drivers/${id}`, {
+        method: "DELETE"
+    });
+
+    loadDrivers(); // Reload
+}
+
+// ===== RESET FORM =====
+function resetForm() {
+
+    editingId = null; // Reset edit mode
+
+    document.getElementById("name").value = "";
+    document.getElementById("license").value = "";
+
+    document.getElementById("mainBtn").innerText = "Add Driver";
+}
+
+// ===== INIT =====
+document.addEventListener("DOMContentLoaded", loadDrivers);
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Fuel Management</title> <!-- Page title -->
+<meta charset="UTF-8"> <!-- UTF-8 encoding -->
+
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<style>
+
+/* Page background + font */
+body {
+    background: #eef1f5;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Main container */
+.container-box {
+    max-width: 1100px; /* Max width */
+    margin: 40px auto; /* Center */
+}
+
+/* Card style */
+.card-box {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container-box">
+
+<!-- Header -->
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <h2>⛽ Fuel Management</h2>
+    <!-- Back to dashboard -->
+    <a href="/index.html" class="btn btn-secondary">⬅ Back to Dashboard</a>
+</div>
+
+<!-- ===== FORM ===== -->
+<div class="card-box">
+    <div class="row g-3">
+
+        <!-- Vehicle ID -->
+        <div class="col-md-3">
+            <input id="vehicleId" class="form-control" placeholder="Vehicle ID">
+        </div>
+
+        <!-- Liters -->
+        <div class="col-md-3">
+            <input id="liters" class="form-control" placeholder="Liters">
+        </div>
+
+        <!-- Total Cost -->
+        <div class="col-md-3">
+            <input id="cost" class="form-control" placeholder="Total Cost">
+        </div>
+
+        <!-- Button -->
+        <div class="col-md-3">
+            <button class="btn btn-primary w-100" onclick="addFuel()">Add Fuel</button>
+        </div>
+
+    </div>
+</div>
+
+<!-- ===== TABLE ===== -->
+<div class="card-box">
+<table class="table table-bordered">
+
+    <!-- Table header -->
+    <thead class="table-dark">
+        <tr>
+            <th>ID</th>
+            <th>Vehicle</th>
+            <th>Date</th>
+            <th>Liters</th>
+            <th>Total Cost</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+
+    <!-- Data will render here -->
+    <tbody id="fuelTable"></tbody>
+
+</table>
+</div>
+
+</div>
+
+<script>
+
+// ===== API URL =====
+const API = "http://localhost:5054/api/FuelLogs";
+
+// Store ID when editing
+let editingId = null;
+
+// ===== LOAD DATA =====
+async function loadFuel() {
+
+    // Call API GET
+    const res = await fetch(API);
+    const data = await res.json();
+
+    // Get table body
+    const table = document.getElementById("fuelTable");
+
+    // Clear old data
+    table.innerHTML = "";
+
+    // Loop data
+    data.forEach(f => {
+
+        // Add row
+        table.innerHTML += `
+        <tr>
+            <td>${f.id}</td> <!-- ID -->
+            <td>${f.vehicleId}</td> <!-- Vehicle ID -->
+            <td>${new Date(f.fuelDate).toLocaleDateString()}</td> <!-- Format date -->
+            <td>${f.liters}</td> <!-- Liters -->
+            <td>${f.totalCost}</td> <!-- Cost -->
+            <td>
+                <!-- Edit button -->
+                <button class="btn btn-warning btn-sm"
+                onclick="editFuel(${f.id}, ${f.vehicleId}, ${f.liters}, ${f.totalCost})">
+                Edit
+                </button>
+
+                <!-- Delete button -->
+                <button class="btn btn-danger btn-sm"
+                onclick="deleteFuel(${f.id})">
+                Delete
+                </button>
+            </td>
+        </tr>`;
+    });
+}
+
+// ===== ADD OR UPDATE =====
+async function addFuel() {
+
+    // Get input values
+    const vehicleId = document.getElementById("vehicleId").value;
+    const liters = document.getElementById("liters").value;
+    const totalCost = document.getElementById("cost").value;
+
+    // Create object
+    const data = {
+        vehicleId: parseInt(vehicleId), // Convert to number
+        fuelDate: new Date(), // Current date
+        liters: parseFloat(liters),
+        totalCost: parseFloat(totalCost)
+    };
+
+    // If not editing → ADD
+    if (editingId == null) {
+
+        await fetch(API, {
+            method: "POST", // Create
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify(data)
+        });
+
+    } else {
+
+        // UPDATE
+        await fetch(`${API}/${editingId}`, {
+            method: "PUT", // Update
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ id: editingId, ...data })
+        });
+
+        editingId = null; // Reset edit mode
+    }
+
+    clearForm(); // Reset form
+    loadFuel(); // Reload data
+}
+
+// ===== DELETE =====
+async function deleteFuel(id) {
+
+    // Confirm before delete
+    if (!confirm("Delete this record?")) return;
+
+    await fetch(`${API}/${id}`, {
+        method: "DELETE"
+    });
+
+    loadFuel(); // Reload
+}
+
+// ===== EDIT =====
+function editFuel(id, vehicleId, liters, totalCost) {
+
+    // Fill form with old data
+    document.getElementById("vehicleId").value = vehicleId;
+    document.getElementById("liters").value = liters;
+    document.getElementById("cost").value = totalCost;
+
+    editingId = id; // Set editing ID
+}
+
+// ===== CLEAR FORM =====
+function clearForm() {
+    document.getElementById("vehicleId").value = "";
+    document.getElementById("liters").value = "";
+    document.getElementById("cost").value = "";
+}
+
+// Load data when page opens
+loadFuel();
+
+</script>
+
+</body>
+</html>
